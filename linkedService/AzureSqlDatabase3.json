@@ -1,0 +1,13 @@
+{
+	"name": "AzureSqlDatabase3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "trying to connect to helia's sql db",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=bigdataingbc.database.windows.net;initial catalog=bigdataingbc;user id=Friends",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDYyNEMwM0IxLTkyMDEtNDAzQi05QjlBLUUxQkZFMTE5N0E3Rl8zMWIwYzRkYS02YjU3LTRlMmQtOWY3MS05MTAwNzg4M2Q2ZGYiDQp9"
+		}
+	}
+}
